@@ -43,9 +43,77 @@ nav a {
     font-family: "BinggoWood";
     padding: 8px;
     text-transform: capitalize;
-    font-size: 15px;
+    font-size: 18px;
     text-decoration: none;
     color: #654F50;
+}
+
+nav a:hover{
+    color: rgb(219, 199, 166);
+}
+
+.product{
+    width: auto;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+.product li{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 3px solid black;
+    border-radius: 70px;
+}
+
+.product li:hover{
+    color: rgb(107, 96, 80);
+    border-color: rgb(167, 154, 135);
+}
+
+
+.product h2{
+    font-family: "BingooWood";
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.product li:hover h2{
+    font-size: 25px;
+}
+
+.product img{
+    width: 300px;
+    height: 320px;
+}
+
+.prod-desc{
+    font-size: 20px;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.prod-price{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.foot{
+    text-align: center;
+    background-color: black;
+}
+
+.foot img{
+    display: inline-block;
+    width: 350px;
+}
+
+#logo-vertical{
+    width: 150px;
 }
 
 /*
