@@ -104,6 +104,7 @@ nav a:hover{
 
 footer{
     background: url(/img/textura.PNG);
+    padding: 5px;
 }
 
 
@@ -114,9 +115,15 @@ footer{
 
 .foot img{
     display: inline-block;
-    width: 350px;
+    width: 150px;
 }
 
 #logo-vertical{
-    width: 150px;
+    width: 80px;
+}
+
+.copyright{
+    font-size: 10px;
+    font-weight: bold;
+    margin: 25px;
 }
