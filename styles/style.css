@@ -7,7 +7,7 @@
 }
 
 html{
-    background-color: #dfdede ;
+    background-color: #F4F4F4 ;
 }
 
 body {
@@ -17,7 +17,7 @@ body {
 
 header{
     position: relative;
-    background-color: #F4F4F4;
+    background-color: #dfdede;
     margin: auto;
     text-align: center;
 }
@@ -102,6 +102,11 @@ nav a:hover{
     font-weight: bold;
 }
 
+footer{
+    background: url(/img/textura.PNG);
+}
+
+
 .foot{
     text-align: center;
     background-color: black;
@@ -115,24 +120,3 @@ nav a:hover{
 #logo-vertical{
     width: 150px;
 }
-
-/*
-@media (max-width: 767px) {
-
-  .logo_hor {
-    max-width: 60%; 
-    height: auto;
-  }
-
-  nav.menu {
-    position: static; 
-    display: block; 
-    margin-top: 10px; 
-  }
-
-  nav li {
-    display: block; 
-    text-align: center; /
-    margin-bottom: 5px;  
-  }
-}*/
