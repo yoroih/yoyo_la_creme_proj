@@ -1,0 +1,80 @@
+@font-face {
+  font-family: "BinggoWood";
+  src: url("../fonts/BinggoWood.ttf") format("truetype"),
+      url("../fonts/BinggoWood.otf") format("opentype"),
+      url("../fonts/BinggoWood.woff") format("woff"),
+      url("../fonts/BinggoWood.woff2") format("woff2");
+}
+
+html{
+  background-color: #F4F4F4 ;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header{
+  position: relative;
+  background-color: #dfdede;
+  margin: auto;
+  text-align: center;
+}
+.head_box h1{
+  display:  inline-block;
+}
+
+.logo_hor{
+  max-width: 100%;
+  height: 45px;
+}
+
+nav.menu{
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+}
+
+nav li{
+  display: inline;   
+}
+nav a {
+  font-family: "BinggoWood";
+  padding: 8px;
+  text-transform: capitalize;
+  font-size: 18px;
+  text-decoration: none;
+  color: #654F50;
+}
+
+nav a:hover{
+  color: rgb(219, 199, 166);
+}
+
+footer{
+  background: url(/img/textura.PNG);
+  padding: 5px;
+}
+
+.foot{
+  text-align: center;
+  background-color: black;
+  padding-top: 30px;
+}
+
+.foot img{
+  display: inline-block;
+  width: 150px;
+}
+
+#logo-vertical{
+  width: 80px;
+}
+
+.copyright{
+  font-size: 10px;
+  font-weight: bold;
+  margin: 25px;
+}
