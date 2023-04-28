@@ -21,12 +21,47 @@
             </nav>
         </div>
     </header>
-    <main>  
+    <main>
+        <form>
+            <label for="nombresyapellidos">Nombres y apellidos</label>
+            <input type="text" id="nombresyapellidos" class="cuadros-de-texto" required>
 
+            <label for="email">Email</label> 
+            <input type="email" id="email" class="cuadros-de-texto" required placeholder="email@dominio.com">
+
+            <label for="telefono">Teléfono</label>
+            <input type="tel" id="telefono" class="cuadros-de-texto" required placeholder="(+cod) 999 555 111">
+
+            <label for="mensaje">Mensaje</label>
+            <textarea id="mensaje" rows="5" class="cuadros-de-texto" required></textarea>
+
+            <fieldset>
+                <legend>¿Cómo le gustaría ser contactado?</legend>
+
+                <label for="radio-email"><input type="radio" name="contact" value="email" id="radio-email">Email</label>
+                
+                <label for="radio-telefono"><input type="radio" name="contact" value="telefono" id="radio-telefono">Teléfono</label>
+                
+                <label for="radio-whatsapp"><input type="radio" name="contact" value="whatsapp" id="radio-whatsapp" checked>Whatsapp</label>
+            </fieldset>
+
+            <fieldset>
+                <legend>¿En cuál horario prefiere ser atendido?</label>
+                <select>
+                    <option>Mañana</option>
+                    <option>Tarde</option>
+                    <option>Noche</option>
+                </select>
+            </fieldset>
+            
+            <label class="checkbox"><input type="checkbox" id="checkbox" checked>¿Le gustaría recibir novedades?</label>
+            
+            <input type="submit" value="Enviar">
+        </form>  
     </main>
     <footer class="foot">
-        <img id="logo-vertical" src="./img/1_yoyo_logo.png">
-        <img src="./img/eslogan.png">
+        <img id="logo-vertical" src="./img/1_yoyo_logo.png" alt="YOYO à la CRÈME logo">
+        <img src="./img/eslogan.png" alt="YOYO à la CRÈME eslogan" >
         <p class="copyright">YOYO Inc. 2023 - All Rights Reserved &reg</p>
     </footer>
 </body>

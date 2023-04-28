@@ -1,2 +1,38 @@
 @import url("global-styles.css");
 
+main{
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+form{
+  margin: 40px 0;
+}
+
+fieldset{
+  border: none;
+}
+
+form label, form legend{
+  display: block;
+  font-size: 20px;
+  margin: 0 0 10px;
+}
+
+select{
+  display: block;
+  margin: 15px;
+}
+
+.cuadros-de-texto{
+  display: block;
+  margin: 0 0 20px;
+  padding: 5px 5px;
+  width: 50%;
+}
+
+.checkbox{
+  margin: 15px 0;
+}
