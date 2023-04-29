@@ -36,3 +36,21 @@ select{
 .checkbox{
   margin: 15px 0;
 }
+
+.enviar{
+  width: 40%;
+  padding: 15px 0;
+  font-size: 18px;
+  font-weight: bold;
+  color: black;
+  background: rgb(252, 221, 165);
+  border: none;
+  border-radius: 10px;
+  transition: 1.5s all;
+  cursor: pointer;
+}
+
+.enviar:hover{
+  background-color: darkorange;
+  transform: scale(1.1);
+}
