@@ -1,0 +1,25 @@
+@import url("/styles/global-styles.css");
+
+
+
+.titulo-principal{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  font-size: 40px;
+  position: absolute;
+  width: 100%;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.banner-container {
+  position: relative;
+  max-width: auto;
+  margin: 0 auto;
+}
+
+.banner {
+  width: 100%;
+  height: auto;
+}
