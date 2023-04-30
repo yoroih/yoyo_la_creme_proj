@@ -23,6 +23,7 @@ header{
 }
 .head_box h1{
   display:  inline-block;
+  max-width: ;
 }
 
 .logo_hor{
@@ -51,6 +52,24 @@ nav a {
 
 nav a:hover{
   color: rgb(219, 199, 166);
+}
+
+@media screen and (max-width: 768px) {
+  .head_box h1 {
+    max-width: 100%;
+  }
+
+  nav.menu {
+    margin-top: 45px;
+    position: static;
+    display: block;
+    text-align: center;
+  }
+
+  nav li {
+    display: block;
+    margin-bottom: 10px;
+  }
 }
 
 footer{
