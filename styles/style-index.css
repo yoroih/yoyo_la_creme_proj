@@ -1,5 +1,11 @@
 @import url("/styles/global-styles.css");
 
+section{
+  padding: 0% 10%;
+  margin: 0 auto;
+  max-width: auto;
+}
+
 .titulo-principal{
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   text-align: center;
@@ -7,7 +13,7 @@
   font-size: 2.5vw; 
   position: absolute;
   width: 100%;
-  top: 90%;
+  top: 80%;
   left: 50%;
   transform: translate(-50%, -50%);
   white-space: nowrap; 
@@ -17,27 +23,33 @@
   max-width: auto;
   margin: 0 auto;
 }
+
 .banner {
   width: 100%;
   height: auto;
 }
 
-.principal {
-  display: flex;
-  flex-direction: column;
+.principal img {
+  width: 30%;
+  height: auto;
+  border-radius: 20px;
+  margin: 10px auto;
 }
 
-.parrafo-imagen, .imagen-parrafo {
+.principal div {
   display: flex;
-  flex-direction: row;
   align-items: center;
-  margin-bottom: 20px;
 }
 
-.parrafo-imagen img {
-  margin-right: 20px;
+.principal .parrafo-img {
+  margin: 0 40px 0 40px;
+  text-align: center;
 }
 
-.imagen-parrafo img {
-  margin-left: 20px;
+.principal div:nth-child(odd) {
+  flex-direction: row;
+}
+
+.principal div:nth-child(even) {
+  flex-direction: row-reverse;
 }
