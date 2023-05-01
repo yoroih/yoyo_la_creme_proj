@@ -1,4 +1,4 @@
-# Yoyo à la crème - Website
+# Yoyo à la crème - Website :computer:
 The project is a website for a conceptual brand.
 
 ## Technologies
