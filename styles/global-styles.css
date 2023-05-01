@@ -23,7 +23,7 @@ header{
 }
 .head_box h1{
   display:  inline-block;
-  max-width: ;
+  max-width: auto;
 }
 
 .logo_hor{

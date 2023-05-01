@@ -1,9 +1,0 @@
-webs ejemplo:
-- Channel: https://www.chanel.com/es/
-- Dior: https://www.dior.com/es_sam
-- Gucci: https://www.gucci.com/es/es/?utm_medium=geolocation&utm_source=gucci-WW&utm_campaign=page
-- Armani: https://www.armani.com/en-us
-- louis vuitton: https://la.louisvuitton.com/esp-mx/homepage
-- Versace: https://www.versace.com/international/es/home/
-- Fendi: https://www.fendi.com/ii-en/
-- Prada: https://www.prada.com/ww/en.html
