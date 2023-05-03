@@ -2,7 +2,6 @@
 The project is a website for a conceptual brand.
 
 ## Technologies :floppy_disk:
-
 - HTML5
 - CSS3
 
