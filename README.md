@@ -2,6 +2,7 @@
 The project is a website for a conceptual brand.
 
 ## Technologies :floppy_disk:
+
 - HTML5
 - CSS3
 
@@ -16,3 +17,4 @@ In this project, I created a website using only HTML5 and CSS3 to showcase the u
 ## Author/Credits :seedling:
 - Brand Concept: [Sky Boo](https://www.instagram.com/skyboo.g/)
 - Developed: [Yoroi](https://www.instagram.com/yoroih/)
+
